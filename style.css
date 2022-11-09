@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -125,4 +126,40 @@ main{
     text-align: center;
     margin: 10;
     font-weight: bold;
+}
+.footer{
+    border: 1px solid gray;/*Borde*/
+    background-color: whitesmoke;
+    color: black;/*color de letra*/
+    font-family:'Indie Flower', cursive;
+    font-weight: bold;
+    width: 2000px;
+    height: 100px;/*altura*/
+    text-align: center;/*centrar*/
+    margin: 10px;
+    font-size: 30px;
+}
+.piedepagina{
+    width: 100%;
+    background-color: #1abc9c;
+    
+}
+
+.piedepagina .grupo1{
+ width: 100%;
+ max-width: 1200px;
+ margin: auto;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 50px;
+ padding: 45px 0px;
+
+}
+.piedepagina .grupo1 .box h2{
+color: floralwhite;
+ font-size: 20px;
+ text-decoration: none;
+ font-weight: bold;
+ font-family:'Indie Flower', cursive;
+
 }
