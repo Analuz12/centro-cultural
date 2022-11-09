@@ -145,21 +145,38 @@ main{
     
 }
 
-.piedepagina .grupo1{
+.piedepagina .grupo-1{
  width: 100%;
  max-width: 1200px;
  margin: auto;
  display: grid;
- grid-template-columns: repeat(3,1fr);
+ grid-template-columns: repeat(4,3fr);
  grid-gap: 50px;
  padding: 45px 0px;
 
 }
-.piedepagina .grupo1 .box h2{
+.piedepagina .grupo-1 .box h2{
 color: floralwhite;
+margin-bottom: 25px;
  font-size: 20px;
- text-decoration: none;
- font-weight: bold;
  font-family:'Indie Flower', cursive;
 
 }
+.piedepagina .grupo-1 .box p{
+    color: floralwhite;
+    margin-bottom: 10px;
+     font-size: 20px;
+     font-family:'Indie Flower', cursive;
+    }
+
+    .piedepagina .grupo-1 .RedSocial a{
+       display: inline-block;
+       text-decoration: none;
+       width: 45px;
+       height: 45px;
+       line-height: 45px;
+       color: rgb(52, 17, 149);
+       margin-right: 10px;
+       background-color:floralwhite;
+       text-align: center;
+           }
