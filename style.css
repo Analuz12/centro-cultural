@@ -185,3 +185,11 @@ margin-bottom: 25px;
 .piedepagina .grupo-1 .RedSocial a:hover{
     color: aqua;
 }
+.piedepagina .grupo2{
+    background-color:#1abc9c;
+    text-align: center;
+    color: floralwhite;
+}
+.piedepagina .grupo2 small{
+    font-size: 15px ;
+}
