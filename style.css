@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*CABECERA*/
+header{
+    display: flex;
+    width: 100%;
+    background: #1abc9c;
+    height: 70px;
+}
+.ancho{
+    width: 90%;
+    height:  70px;
+    margin: auto;
+    
+
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: blue;*/
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.logo p a{
+ color: floralwhite;
+ font-size: 20px;
+ text-decoration: none;
+ font-weight: bold;
+ font-family:'Indie Flower', cursive;
+
+
+
+}
+nav{
+    width: 70%;
+    height: 70px;
+   /* background: olive;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color:floralwhite;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15pxs;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Indie Flower', cursive;;
+}
+nav ul li a:hover {
+    color: #444;
+    
+}
+
+
+/*pagina entera*/
+.main{
+    display: flex;
+    height: 2500px;
+    align-items: center;
+    justify-content: center;
+    font-family:'Indie Flower', cursive; ;
+}
+
+body{
+    background-image: url(Imagenes/fondo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*pagina sector de imagenes*/
+
+.conteiner{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: whitesmoke;
+    box-shadow: 0px  1px 10px  rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px  5px 20px  rgb(0,0,0,0.4);
+    transform: translate(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+
+}
+.card .contenido{
+padding: 15px;
+text-align: center;
+
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: gray;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color:#1abc9c;
+    border: 1px solid #1abc9c;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+background: #1abc9c;
+color: whitesmoke;
+
+}
+
+/*PIE DE PAGINA*/
+.footer{
+    
+    border: 1px solid gray;/*Borde*/
+    background-color: whitesmoke;
+    color: black;/*color de letra*/
+    font-family:'Indie Flower', cursive;
+    font-weight: bold;
+    width: 2000px;
+    height: 100px;/*altura*/
+    text-align: center;/*centrar*/
+    margin: 10px;
+    font-size: 30px;
+}
+.piedepagina{
+    width: 100%;
+    background-color: #1abc9c;
+    
+}
+
+.piedepagina .grupo-1{
+ width: 100%;
+ max-width: 1200px;
+ margin: auto;
+ display: grid;
+ grid-template-columns: repeat(4,3fr);
+ grid-gap: 50px;
+ padding: 45px 0px;
+
+}
+.piedepagina .grupo-1 .box h2{
+color: floralwhite;
+margin-bottom: 25px;
+ font-size: 20px;
+ font-family:'Indie Flower', cursive;
+
+}
+.piedepagina .grupo-1 .box p{
+    color: floralwhite;
+    margin-bottom: 10px;
+     font-size: 20px;
+     font-family:'Indie Flower', cursive;
+    }
+
+.piedepagina .grupo-1 .RedSocial a{
+       display: inline-block;
+       text-decoration: none;
+       width: 45px;
+       height: 45px;
+       line-height: 45px;
+       color: rgb(52, 17, 149);
+       margin-right: 10px;
+       background-color:floralwhite;
+       text-align: center;
+       transition:all 300ms ease;
+           }
+
+.piedepagina .grupo-1 .RedSocial a:hover{
+    color: aqua;
+}
+.piedepagina .grupo2{
+    background-color:#1abc9c;
+    text-align: center;
+    color: floralwhite;
+}
+.piedepagina .grupo2 small{
+    font-size: 15px ;
+}
