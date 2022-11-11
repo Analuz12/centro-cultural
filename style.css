@@ -208,3 +208,14 @@ margin-bottom: 25px;
 .piedepagina .grupo2 small{
     font-size: 15px ;
 }
+
+
+
+
+
+@media screen and (max-whidth:800px) {
+    .nav{
+        flex-direction: column;
+    }
+    
+}
