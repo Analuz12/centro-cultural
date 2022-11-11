@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
-    margin: 0%;
-    padding: 0%;
-    }
-
-
-
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*CABECERA*/
 header{
+    display: flex;
     width: 100%;
     background: #1abc9c;
     height: 70px;
@@ -16,6 +15,7 @@ header{
     height:  70px;
    /* background: red;*/
     margin: auto;
+    
 
 }
 
@@ -64,70 +64,86 @@ nav ul li a:hover {
     color: #444;
     
 }
-body{
-    background: whitesmoke;
-}
-main{
+
+
+/*pagina entera*/
+.main{
     display: flex;
-    height: auto;
-    justify-content: center;
+    height: 2500px;
     align-items: center;
- }
-
- section{ 
-    border: 1px solid gray;/*Borde*/
-    background-color: whitesmoke;
-    color: black;/*color de letra*/
-    font-family:'Indie Flower', cursive;
-    font-weight: bold;
-    width: 300px;
-    height: 300px;/*altura*/
-    text-align: center;/*centrar*/
-    margin: 50px;
-    font-size: 10px;
-    
+    justify-content: center;
+    font-family:'Indie Flower', cursive; ;
 }
 
-.div1,h1{
+body{
+    background-image: url(Imagenes/fondo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*pagina sector de imagenes*/
+
+.conteiner{
+    width: 100%;
     display: flex;
-    width: 100;
-    height: 200;
-    margin: auto;
+    max-width: 1100px;
 }
-.imagenes{
-    border-radius: 50%;
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: whitesmoke;
+    box-shadow: 0px  1px 10px  rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px  5px 20px  rgb(0,0,0,0.4);
+    transform: translate(-3%);
 }
 
-.vermascursos{
-    border: 1px solid gray;/*Borde*/
-    background-color: whitesmoke;
-    color: black;/*color de letra*/
-    font-family:'Indie Flower', cursive;
-    font-weight: bold;
-    width: 1000px;
-    height: 100px;/*altura*/
-    text-align: center;/*centrar*/
-    margin: 10px;
-    font-size: 30px;
-    
+.card img{
+    width: 100%;
+    height: 210px;
+
 }
-.h1{
-    font-family:'Indie Flower', cursive ;
-    color: black;
-    font-size: 20px;
+.card .contenido{
+padding: 15px;
+text-align: center;
+
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: gray;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration: none;
     text-align: center;
-    margin: 10;
-    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color:#1abc9c;
+    border: 1px solid #1abc9c;
+    border-radius: 4px;
+    transition: all 400ms ease;
 }
-.novedades{
-    font-family:'Indie Flower', cursive ;
-    color: black;
-    font-size: 10px;
-    text-align: center;
-    margin: 10;
-    font-weight: bold;
+.card .contenido a:hover{
+background: #1abc9c;
+color: whitesmoke;
+
 }
+
+/*PIE DE PAGINA*/
 .footer{
+    
     border: 1px solid gray;/*Borde*/
     background-color: whitesmoke;
     color: black;/*color de letra*/
@@ -193,4 +209,3 @@ margin-bottom: 25px;
 .piedepagina .grupo2 small{
     font-size: 15px ;
 }
-
