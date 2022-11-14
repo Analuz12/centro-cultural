@@ -265,10 +265,18 @@ background: #1abc9c;
 }
 .slider__btn--right{
     right: 10px;
-
-
 }
 
+/*FORMULARIO*/
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgb(0 ,0, 0,0.3);
+    position: relative;
+}
 
 
 
