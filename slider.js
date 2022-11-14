@@ -8,14 +8,34 @@ const btnRigth = document.querySelector("#btn__rigth");
 slider.insertAdjacentElement('afterbegin',sliderSectionLast );/*Coloca la imagen al principio del slider*/
 
 function Next (){
-let sliderSectionFirst = document.querySelectorAll(".alider_section")[0];
+let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
 slider.style.marginLeft =" -200% ";
-slider.style.transition =" all 0.5s ";
+slider.style.transition ="all 0.5s";
 setTimeout(function(){
 slider.style.transition ="none";/*le quitamos la transsicion*/
 slider.insertAdjacentElement('beforeend',sliderSectionFirst);/*En el slider antes que termine*/
+slider.style.marginLeft="-100%";
 },500);
 }
+function Prev (){
+    let sliderSection = document.querySelectorAll(".slider__section")[0];
+    let sliderSectionLast = sliderSection[sliderSection.length-1];
+    slider.style.marginLeft ="0%";
+    slider.style.transition =" all 0.5s ";
+    setTimeout(function(){
+    slider.style.transition ="none";/*le quitamos la transsicion*/
+    slider.insertAdjacentElement('afterbegin',sliderSectionLast);
+    slider.style.marginLeft="-100%";
+    },500);
+    }
 btnRigth.addEventListener('click',function(){
     Next ();
 });
+btnLeft.addEventListener('click',function(){
+    Prev();
+});
+
+setInterval(function(){
+    Next();
+
+},5000)
