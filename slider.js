@@ -44,4 +44,4 @@ btnLeft.addEventListener('click',function(){
 setInterval(function(){
     /*AVANZA A LA DERECHA AUTOMATICAMENTE*/
     Next();
-},5000);
+},5000);/*CADA 5 SEGUNDOS*/
