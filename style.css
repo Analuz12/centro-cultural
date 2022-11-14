@@ -277,7 +277,19 @@ background: #1abc9c;
     box-shadow: 0 0 20px 1px rgb(0 ,0, 0,0.3);
     position: relative;
 }
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+    color: black;
 
+}
+
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(0,0,0,0.3);
+    margin-bottom: 40px;
+}
 
 
 
