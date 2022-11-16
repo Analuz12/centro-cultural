@@ -26,30 +26,6 @@
             </nav>
         </div>
     </header>
-<br><br><br><br>
-<script>
-    let posicionActual = 0;
-    let imagenes = ["banner/bannerPs.jpg","banner/bannerXbox.jpg","banner/bannerPC.jpg"];
-    function avanzar(){
-        let pic = document.getElementById("slider");
-         if(posicionActual >= imagenes.length-1) {
-            posicionActual = 0;
-            } else {
-                posicionActual++;
-            }
-            pic.src = imagenes[posicionActual];
-    }
-    function retroceder(){
-        let pic = document.getElementById("slider");
-        if(posicionActual <= 0) {
-            posicionActual = imagenes.length-1;
-        } else {
-            posicionActual--;
-        }
-        pic.src = imagenes[posicionActual];
-    }
-    
-</script>
 
 <main>
     <br><br><br><br>
