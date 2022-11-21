@@ -1,12 +1,12 @@
 window.onload= function(){
     /*variables*/
     const IMAGENES = [
-        'Imagenes/proximamente.jpg',
+        'Imagenes/ferialibro.jpg',
         'Imagenes/folclore.jpg',
         'Imagenes/piano.jpg',
     ];
 
-const TIEMPO_INTERVALO_MILESIMA_SEG = 1000;
+const TIEMPO_INTERVALO_MILESIMA_SEG = 2000;
 let posicionActual =0;
 let $botonRetroceder = document.querySelector ('#retroceder');
 let $botonAvanzar = document.querySelector ('#avanzar');
