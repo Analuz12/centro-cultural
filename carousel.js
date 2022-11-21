@@ -1,7 +1,7 @@
 window.onload= function(){
     /*variables*/
     const IMAGENES = [
-        'Imagenes/ferialibro.jpg',
+        'Imagenes/yoganueva.jpg',
         'Imagenes/folclore.jpg',
         'Imagenes/piano.jpg',
     ];
