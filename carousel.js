@@ -1,9 +1,9 @@
 window.onload= function(){
     /*variables*/
     const IMAGENES = [
-        'Imagenes/costura.jpg',
+        'Imagenes/proximamente.jpg',
         'Imagenes/folclore.jpg',
-        'Imagenes/yoganueva.jpg',
+        'Imagenes/piano.jpg',
     ];
 
 const TIEMPO_INTERVALO_MILESIMA_SEG = 1000;
