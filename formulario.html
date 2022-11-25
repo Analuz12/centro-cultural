@@ -20,24 +20,40 @@
     </header>
 
 <main>
-<form action="" class="formulario">
-    <h1 class="formulario__titulo">Contactenos</h1>
-    <input type="text" class="formulario__input"> 
-    <label for="" class="formulario__label">Apellido</label>
-<input type="text" class="formulario__input"> 
-    <label for="" class="formulario__label">Nombre</label>
-<input type="text" class="formulario__input"> 
-    <label for="" class="formulario__label">Email</label>
-    <input type="text" class="formulario__input"> 
-    <label for="" class="formulario__label">Telefono</label>
-    <input type="text" class="formulario__input"> 
-   <label for="" class="formulario__label">Asunto</label>
-   <input type="submit" class="formulario__submit">
-</form>
-<script src="form.js"></script>
+    <div class="containerForm">
+        <form>
+           
+          <div class="input-group">
+            <label>Apellido y Nombre</label>
+            <input type="text" placeholder="" id="contact-name" onkeyup="validateName()" >
+            <span id="name-error"></span>
+          </div>
+    
+          <div class="input-group"  id="contact-phone" onkeyup=" validatePhone()">
+            <label>Telefono</label>
+            <input type="tel">
+            <span id="phone-error"></span>
+          </div>
+    
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email">
+            <span id="email-error"></span>
+          </div>   
+    
+          <div class="input-group">
+            <label>Mensanje</label>
+            <textarea rows="5" placeholder="Ingrese el mensaje que desea enviar"></textarea>
+            <span id="message-error"></span>
+          </div>
+    
+        <button>Enviar</button>
+        <span id="subit-error"></span>
+       
+      </form>
 
 </main>
-
+<script src="form.js"></script>
 
 <br><br><br>
     <footer class="piedepagina">
