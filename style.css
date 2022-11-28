@@ -268,100 +268,52 @@ background: #1abc9c;
 }
 
 /*FORMULARIO*/
-.containerForm{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.DivForm{
     font-family:'Indie Flower', cursive;
-}
-.useful-links{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-}
-.useful-links a{
     display: block;
-    color:#1abc9c;
+    text-align: center;
     text-decoration: none;
+    padding: 10px;
 }
-
-.container form{
-    width: 90%;
-    max-width: 500px;
-    padding: 50px 30px 20px;
-    background:#1abc9c;
-    border-radius: 4px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    position: relative;
-}
-.fa-paper-plane{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #fff;
-    font-size: 26px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.input-group{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    position: relative;
-}
-.input-group label{
-    flex-basis: 28%;
-}
-.input-group input, .input-group textarea{
-    flex-basis: 68%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 10px 0;
-    border-bottom: 1px solid #999;
-    color: #333;
-    font-size: 16px;
-}
-::placeholder{
-    font-size: 14px;
-}
-
-form button{
-    background:#1abc9c;
-    color: #fff;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 10px 40px;
-    outline: 0;
-    cursor: pointer;
+.DivFormulario{
+    font-family: 'Indie Flower', cursive;
+    border-radius: 10px;
+    height: 500px;
+    width: 200px;
+    padding: 10px;
     display: block;
-    margin: 30px auto 10px;
+    margin: auto;
+    text-align: center;
+    
 }
-
-.input-group span{
-    position: absolute;
-    bottom: 12px;
-    right: 17px;
-    font-size: 10px;
-    color: red;
-
+.DivFormulario, .DivForm, h3 label{
+    font-weight: bold;
+    font-size: 20px;
+    color:#1abc9c;
 }
-#subit-error{
-    color: red;
-    font-size: 10px;
-
+.DivFormulario input{
+    font-family: 'Indie Flower', cursive;
 }
-.input-group span i{
-    color: seagreen;
-}
-
+textarea{
+    width: 175px;
+    height: 80px;
+    font-family:'Indie Flower', cursive;
+ }
+ .formdiv2 li{ 
+    font-family: 'Indie Flower', cursive;;
+        color:black;
+        font-size: 30px;
+        list-style: none;
+ }
+ .formdiv2 h2{
+    font-family:'Indie Flower', cursive;;
+    color:black;
+    font-size: 30px;
+    list-style: none;
+ }
+ div.formdiv2{
+    text-align: center;
+ }
 /*CARRUSEL DEL INDEX*/
 
 .carousel{
