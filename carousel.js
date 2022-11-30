@@ -5,7 +5,7 @@ window.onload= function(){
         'Imagenes/folclore.jpg',
         'Imagenes/piano.jpg',
     ];
-    
+
 let posicionActual =0;
 let $botonRetroceder = document.querySelector ('#retroceder');
 let $botonAvanzar = document.querySelector ('#avanzar');
